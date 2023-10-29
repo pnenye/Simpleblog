@@ -1,0 +1,29 @@
+I used the Git Bash CMD!
+
+confirm the current directory of the file in order to type and activate the "python manage.py runserver which will display 
+the web app when localhost:8000 is searched on the website.
+
+Step 1 on CMD
+change directory to the file name 'simpleblog'
+
+Step 2 on CMD
+next, you create a virtual environment type this on the CMD type -> 'python -m venv virt'
+then activate it by typing 'source virt\Scripts\activate'
+
+Step 3 on CMD
+type -> 'ls' on your CMD it lets you see what's inside the simpleblog folder and virt which indicates that the viritual environment is still active.
+
+Step 4 on CMD
+Now you change directory to the name of the folder you see. type --> 'cd folder name/'    ie: cd myblog/
+
+Step 5 on CMD
+Then you type 'python manage.py runserver' on your CMD, go to your browser and type -> 'localhost:8000 and click enter. 
+when you click enter it will display the blog home page.
+and when you also go to your browser and type -> 'localhost:8000/admin it shows the django database.
+
+
+
+
+The myblog folder contains (Members,myblog,theblog)
+'Members' was created to take care of user authentication, login, logout and registration.
+theblog was created for the user to view blog home page all available blog post, the ability to add post, update post and even delete post
